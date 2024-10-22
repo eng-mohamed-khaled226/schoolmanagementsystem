@@ -6,7 +6,7 @@ import './App.css'
 import DarkModeContext from './component/context/DarkModeContext'
 // import Nav from './component/Nav'
 // import Sidebar from './component/Sidebar/Sidebar'
-// import Home from './component/Home'
+import Home from './component/Home'
 // import TeacherProfilePage from './pages/Teacher/TeacherProfilePage'
 
 
@@ -17,7 +17,7 @@ function App() {
     <>
       <DarkModeContext.Provider>
         <RouterProvider router={router} />
-
+        <Home />
 
 
       </DarkModeContext.Provider>
